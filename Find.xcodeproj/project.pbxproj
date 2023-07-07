@@ -22,6 +22,7 @@
 		8EAF0A3D2A50E06E00041EEE /* GeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF0A3C2A50E06E00041EEE /* GeneratorView.swift */; };
 		8EAF0A3F2A50E08100041EEE /* TItuloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF0A3E2A50E08100041EEE /* TItuloView.swift */; };
 		8EAF0A412A50E1A600041EEE /* ApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF0A402A50E1A600041EEE /* ApiView.swift */; };
+		8EAF24342A58AFC3005446E0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF24332A58AFC3005446E0 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		8EAF0A3C2A50E06E00041EEE /* GeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorView.swift; sourceTree = "<group>"; };
 		8EAF0A3E2A50E08100041EEE /* TItuloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TItuloView.swift; sourceTree = "<group>"; };
 		8EAF0A402A50E1A600041EEE /* ApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiView.swift; sourceTree = "<group>"; };
+		8EAF24332A58AFC3005446E0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				8EAF0A3A2A50E05100041EEE /* TextFieldView.swift */,
 				8EAF0A3C2A50E06E00041EEE /* GeneratorView.swift */,
 				8EAF0A3E2A50E08100041EEE /* TItuloView.swift */,
+				8EAF24332A58AFC3005446E0 /* SwiftUIView.swift */,
 			);
 			path = Componets;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				8E23CDDC2A54566800A47CC2 /* ExtensionGameView.swift in Sources */,
 				8EAF0A372A50E02000041EEE /* ButtonNextView.swift in Sources */,
 				8EAF0A3F2A50E08100041EEE /* TItuloView.swift in Sources */,
+				8EAF24342A58AFC3005446E0 /* SwiftUIView.swift in Sources */,
 				8EAF0A412A50E1A600041EEE /* ApiView.swift in Sources */,
 				8EAF0A312A50DFBD00041EEE /* GameView.swift in Sources */,
 				8EAF0A232A50DF6900041EEE /* FindApp.swift in Sources */,
