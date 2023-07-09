@@ -4,23 +4,35 @@ struct GameView: View {
     @EnvironmentObject var api: API
     @State var searchText = ""
     @State var score = 0
+    @State var isActive = false
+    @State var isActives = false
+    @State var isActivess = false
+
+
     
     var body: some View {
         ZStack {
             BallView()
             VStack {
-                HStack {
-                    Titulo(title: "SpoatiFind")
-                    Spacer()
-                    SubTitulo(title: "Score: \(score)")
+                ZStack{
+                    VStack {
+                        HStack {
+                            Titulo(title: "SpoatiFind")
+                            Spacer()
+                            SubTitulo(title: "Score: \(score)")
+                        }
+                        .padding()
+                        
+                        GeneratorView().environmentObject(api)
+                        TextFieldView(searchText: $searchText)
+                        
+                        Spacer()
+                    }
+                    PopRightView(isShowing: $isActive)
+                   PopWorngView(isShowing: $isActives)
+                PopAlertView(isShowing: $isActivess)
+                    
                 }
-                .padding()
-                
-                GeneratorView().environmentObject(api)
-                TextFieldView(searchText: $searchText)
-                
-                Spacer()
-                
                 Button(action: {
                     onSearchButtonTapped()
                 }
@@ -36,10 +48,16 @@ struct GameView: View {
             }
             .padding()
         }.task {
+            do {
+                try await api.buscar()
+            } catch {
+                print("Error", error)
+            }
             
         }
         
     }
+ 
     
 }
 

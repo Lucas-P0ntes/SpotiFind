@@ -15,14 +15,15 @@ struct ContentView: View {
                     }
                 }
                 .padding()
+                .task {
+                    do {
+                        try await api.buscar()
+                    } catch {
+                        print("Error", error)
+                    }
+                }
             }
             
-        }.task {
-            do {
-                try await api.buscar()
-            } catch {
-                print("Error", error)
-            }
         }
       
     }

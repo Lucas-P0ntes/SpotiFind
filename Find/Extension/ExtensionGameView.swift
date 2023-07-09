@@ -27,13 +27,33 @@ extension GameView {
     
     public func onNextButtonTapped() {
         score -= 5
-         buscarArtist()
+        isActivess = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0){
+            buscarArtist()
+        }
     }
+    
     public func onSearchButtonTapped() {
         let artistExists = artistNameExists()
-        score += artistExists ? 10 : -10
-         buscarArtist()
+        
+        if(artistExists){
+            score += 10
+            isActive = true
+            
+        }else{
+            score += -10
+            isActives = true
+            
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0){
+            buscarArtist()
+        }
     }
+    
+    
     
     
 }
+
+
+

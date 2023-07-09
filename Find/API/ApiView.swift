@@ -134,14 +134,10 @@ class API: ObservableObject  {
         let (data, response) = try await URLSession.shared.data(for: request)
         
         
-        guard let httpResponse = response as? HTTPURLResponse else {
+        guard response is HTTPURLResponse else {
                fatalError("Invalid HTTP response")
            }
-        print(httpResponse.statusCode)
-//        guard  httpResponse.statusCode == 200 else {
-//               fatalError("Invalid HTTP response")
-//           }
-      
+
         
         
         if let jsonString = String(data: data, encoding: .utf8) {
