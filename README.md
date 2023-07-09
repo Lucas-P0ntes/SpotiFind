@@ -28,8 +28,8 @@ Is ready
 
 ## Screenshots
 ## Screenshots
-<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/5e031d24-bc9e-49ee-b2d1-d8f9b0574e80" width="300"></br>
-<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/daa3c49a-b4e4-49e6-9526-80f2dad87326" width="300"></br>
-<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/3feb65a6-6389-45d4-bf54-76ad74997809" width="300"></br>
-<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/1d8e175f-fd0e-483a-a2f6-17553e43f4f0" width="300"></br>
-<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/464def95-ecb0-42b4-a839-7381e8dbcfed" width="300"></br>
+<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/5e031d24-bc9e-49ee-b2d1-d8f9b0574e80" width="300">
+<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/daa3c49a-b4e4-49e6-9526-80f2dad87326" width="300">
+<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/3feb65a6-6389-45d4-bf54-76ad74997809" width="300">
+<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/1d8e175f-fd0e-483a-a2f6-17553e43f4f0" width="300">
+<img src="https://github.com/Lucas-P0ntes/SpotiFind/assets/80328167/464def95-ecb0-42b4-a839-7381e8dbcfed" width="300">
